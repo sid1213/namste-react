@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const childOne = React.createElement(
   "h1",
   { id: "child1", key: "sss", style: { backgroundColor: "green" } },
@@ -11,7 +14,10 @@ const childTwo = React.createElement(
 
 const parent = React.createElement(
   "div",
-  { id: "parent", style: { backgroundColor: "red" } },
+  {
+    id: "parent",
+    style: { backgroundColor: "red", width: "100px" },
+  },
   ["'m parent", childOne, childTwo]
 );
 const rootElement = document.getElementById("root");

@@ -1,0 +1,29 @@
+{
+  "name": "laying-the-foudation",
+  "version": "1.0.0",
+  "description": "Learning in depth knowledge of  JSX and Functional components ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/sid1213/namste-react.git)"
+  },
+  "keywords": [
+    "react",
+    "jsx",
+    "FunctionaComponents"
+  ],
+  "author": "Siddharth",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  }
+}
